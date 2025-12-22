@@ -1,6 +1,6 @@
 ## Implementation Steps
 
-### Step 1️⃣ Install Sysmon on Windows
+### Step 1: Install Sysmon on Windows
 
 
 ### 📥 Installation Steps
