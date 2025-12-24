@@ -61,6 +61,40 @@ SOC analysts mentally ask:
 
 → **Security logs**
 
+### “What process executed?”
+
+→ **Sysmon**
+
+### “What did that process do?”
+
+→ **Sysmon**
+
+### “Was authentication successful or not?”
+
+→ **Security logs**
+
+### “Did the system crash?”
+
+→ **System logs**
+
+---
+
+# 6️⃣ Why SOCs Use BOTH (Never One Alone)
+
+Example investigation:
+
+1. **Security Log**
+
+   * Event ID 4624 → User logged in
+2. **Sysmon**
+
+   * Event ID 1 → Suspicious process started
+3. **Sysmon**
+
+   * Event ID 3 → Network connection made
+4. **Decision**
+
+   * True positive → escalate
 
 
 
