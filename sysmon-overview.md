@@ -34,6 +34,32 @@ So Sysmon logs are:
 ✅ Windows Event Logs
 ❌ Not native Windows Security logs
 
+---
+
+# 4️⃣ Core Difference: WHAT Gets Logged
+
+This is the real distinction SOC analysts care about.
+
+| Category                | Windows Security Logs | Sysmon Logs |
+| ----------------------- | --------------------- | ----------- |
+| Who logged in           | ✅ Yes                 | ❌ No        |
+| Authentication failures | ✅ Yes                 | ❌ No        |
+| Account creation        | ✅ Yes                 | ❌ No        |
+| Process creation        | ⚠️ Limited            | ✅ Detailed  |
+| Network connections     | ❌ No                  | ✅ Yes       |
+| Registry changes        | ❌ No                  | ✅ Yes       |
+| File creation           | ❌ No                  | ✅ Yes       |
+| Command-line arguments  | ❌ No                  | ✅ Yes       |
+
+---
+
+# 5️⃣ Think in Questions (Best Way to Remember)
+
+SOC analysts mentally ask:
+
+### “Who accessed the system?”
+
+→ **Security logs**
 
 
 
