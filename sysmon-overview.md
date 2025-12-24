@@ -1,4 +1,4 @@
-# 3️⃣ Where Sysmon Fits (This Is the Key Part)
+# Where Sysmon Fits (This Is the Key Part)
 
 ### Sysmon is NOT a Windows Event Log channel by default
 
@@ -36,7 +36,7 @@ So Sysmon logs are:
 
 ---
 
-# 4️⃣ Core Difference: WHAT Gets Logged
+# Core Difference: WHAT Gets Logged
 
 This is the real distinction SOC analysts care about.
 
@@ -53,7 +53,7 @@ This is the real distinction SOC analysts care about.
 
 ---
 
-# 5️⃣ Think in Questions (Best Way to Remember)
+# Think in Questions (Best Way to Remember)
 
 SOC analysts mentally ask:
 
@@ -79,7 +79,7 @@ SOC analysts mentally ask:
 
 ---
 
-# 6️⃣ Why SOCs Use BOTH (Never One Alone)
+# Why SOCs Use BOTH (Never One Alone)
 
 Example investigation:
 
@@ -100,7 +100,7 @@ This correlation is **core SOC work**.
 
 ---
 
-# 7️⃣ Why Sysmon Is a “Custom Log”
+# Why Sysmon Is a “Custom Log”
 
 Sysmon logs are called *custom* because:
 
@@ -114,15 +114,15 @@ So:
 
 ---
 
-# 8️⃣ Clean Mental Model
+# Clean Mental Model
 
-> **Windows Event Logs = The platform**
-> **Security logs = Who and access**
-> **Sysmon logs = What and how**
+* Windows Event Logs = The platform**
+* Security logs = Who and access**
+* Sysmon logs = What and how**
 
 ---
 
-# 9️⃣ One-Line Interview Answer
+# One-Line Interview Answer
 
 > *“Windows Event Logs refer to the entire logging framework in Windows, while Sysmon logs are custom event logs that provide detailed process, network, and registry telemetry beyond what native Windows logs provide.”*
 
